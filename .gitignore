@@ -3,11 +3,6 @@
 # dependencies
 /server/node_modules
 
-# package
-/server/package-lock.json
-/server/yarn.lock
-
-
 # =============== client ===============
 
 # dependencies
@@ -33,5 +28,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # package
-/client/package-lock.json
-/client/yarn.lock
+package-lock.json
+yarn.lock
