@@ -1,5 +1,12 @@
 # =============== server ===============
+
+# dependencies
 /server/node_modules
+
+# package
+/server/package-lock.json
+/server/yarn.lock
+
 
 # =============== client ===============
 
@@ -26,5 +33,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # package
-package-lock.json
-yarn.lock
+/client/package-lock.json
+/client/yarn.lock
