@@ -11,8 +11,6 @@ function App() {
 			});
 	}, []);
 
-	console.log('backendData', backendData);
-
 	return (
 		<div>
 			{typeof backendData?.users === 'undefined' ? (
