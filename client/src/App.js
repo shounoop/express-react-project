@@ -13,7 +13,15 @@ function App() {
 
 	console.log('backendData', backendData);
 
-	return <div></div>;
+	return (
+		<div>
+			{typeof backendData?.users === 'undefined' ? (
+				<p>Loading...</p>
+			) : (
+				backendData?.users?.map((user, index) => <p key={index}>{user}</p>)
+			)}
+		</div>
+	);
 }
 
 export default App;
